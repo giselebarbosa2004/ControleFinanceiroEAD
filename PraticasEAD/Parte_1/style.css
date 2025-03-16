@@ -1,0 +1,131 @@
+/* # = id */
+/* . = class */
+
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h3{
+    margin: 0px;
+}
+
+#top{
+    padding: 32px 0px;
+    background-color: #01000b;
+    color: #ffffff;
+    text-align: center;
+}
+
+#container{
+    padding: 32px 0px;
+    background: #01000b;
+    background: linear-gradient(61deg, #01000b 0%, #00a3c7 70%, rgba(163,230,243,0.11078427953212533) 100%); 
+    color: #ffffff;
+}
+
+#end{
+    padding: 32px 0px;
+    text-align: center;
+    background-color: #01000b;
+    color: #ffffff;
+}
+
+.alignCamp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 62px;
+}
+
+.imgUser{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+.campForm{
+    width: 85%;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: #808080;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 16px;
+}
+
+.campFormMsg{
+    width: 85%;
+    height: 75px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: #808080;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 16px;
+}
+
+.btnAcessar{
+    width: 145px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: #0088ad;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btnAcessar:hover{
+    background-color: #00a3d1; 
+}
+
+.btnCadastrar{
+    width: 145px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: #006a12;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btnCadastrar:hover{
+    background-color: #008f18; 
+}
+
+/* Configurações para Responsividade Nativa (CSS 3)! */
+/* Mobile: 320px - 568px */
+/* Mobile Grande: 568px - 768px */
+/* Tablet: 768px - 998px */
+/* Desktop e Notebook: 998px - full */
+
+/* Função Nativa do CSS 3 para o ajuste de Tela (Responsivo). */
+/* Essa Função de Resolução será para ajustar os elementos no Tablet, Notebook e Desktop. */
+@media screen and (min-width: 768px){
+    #container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+}

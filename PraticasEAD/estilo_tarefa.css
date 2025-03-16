@@ -1,0 +1,24 @@
+.modulo_html{
+    background-color: red;
+    color: white;
+    font-size: 30pt;
+    text-align: right;
+}
+.modulo_logicaestruturada{
+    background-color:yellow;
+    color: blue;
+    font-size: 40pt;
+    text-align:center;
+}
+.modulo_orientada{
+    background-color:blue;
+    color: green;
+    font-size: 20pt;
+    text-align: left;
+}
+.modulo_banco{
+    background-color: white;
+    color: black;
+    font-size: 50pt;
+    text-align: center;
+}
